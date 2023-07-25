@@ -17,7 +17,7 @@
 # You don't need to edit this file for this tutorial.
 #
 # The pane on the left is a file browser.  
-# We can right-click for a contexxt menu to upload and download files.
+# We can right-click for a context menu to upload and download files.
 # 
 # The pane below is a bash shell, where we can run commands and see the results.
 #
@@ -41,7 +41,9 @@
 # Happy hacking!
 
 
-# First we need to download some files.  Clone the repo, including all submodules:
+# First we need to download some files.  
+
+# Clone the repo, including all submodules:
 git clone --recursive https://github.com/bangcorrupt/hacktribe.git
 
 # This will get a copy of all the Hacktribe project files.
@@ -85,7 +87,7 @@ python scripts/e2-firmware-patch.py
 # This should produce a file called hacked-SYSTEM.VSB, 
 # which can be used to install Hacktribe on Electribe 2 Sampler.
 
-# We can rename a file by moving it to a file with a differrent name:
+# We can rename a file by moving it to a file with a different name:
 mv hacked-SYSTEM.VSB sampler-hacked-SYSTEM.VSB
 
 # If you're installing Hacktribe to a factory synth (grey or blue) 
@@ -93,7 +95,7 @@ mv hacked-SYSTEM.VSB sampler-hacked-SYSTEM.VSB
 # This will change some bytes in the file that tell the device what type of file it is.
 # (If you already have a previous version of Hacktribe installed, this is not necessary).
 #
-# Run the firmware patching script for synth, using '-e' flag to edit header:
+# Run the firmware patching script for synth, using '-e' flag to edit the header:
 python scripts/e2-firmware-patch.py -e
 
 # Again, we can rename the file to something more descriptive:
@@ -104,20 +106,17 @@ mv hacked-SYSTEM.VSB synth-hacked-SYSTEM.VSB
 # you should see 'Firmware patched successfully' in the output from the script.  
 
 
-# Everything is done nowm the rest is just tidying up.
+# The patching is complete now, the rest is just tidying up.
 
 
 # We can match multiple file names using the wildcard '*' operator.
 # Move all files with names ending '-SYSTEM.VSB' to the parent directory:
-
 mv *-SYSTEM.VSB ..
 
 # Change directory to parent directory:
-
 cd ..
 
 # Delete all the files we downloaded:
-
 rm -rf hacktribe
 
 # List files in our current working directory, showing some extra details:
@@ -130,7 +129,7 @@ ls -lah
 # 'KORG/electribe sampler/System/SYSTEM.VSB'
 
 # If you currently have Electribe 2 Synth firmware installed, put 'synth-hacked-SYSTEM.VSB' file at:
-# 'KORG/electribe sampler/System/SYSTEM.VSB'
+# 'KORG/electribe/System/SYSTEM.VSB'
 
 # If you currently have a very old version of Hacktribe firmware installed, put 'sampler-hacked-SYSTEM.VSB' file at:
 # 'KORG/electribe sampler/System/SYSTEM.VSB'
