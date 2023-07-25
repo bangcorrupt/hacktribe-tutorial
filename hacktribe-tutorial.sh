@@ -123,7 +123,7 @@ rm -rf hacktribe
 # List files in our current working directory, showing some extra details:
 ls -lah
 
-# Copy the releveant '*-hacked-SYSTEM.VSB' to the 'System' directory on the SD card, 
+# Copy the relevant '*-hacked-SYSTEM.VSB' to the 'System' directory on the SD card, 
 # rename it to 'SYSTEM.VSB' and run the firmware update function on the device.
 
 # If you currently have Electribe 2 Sampler firmware installed, put 'sampler-hacked-SYSTEM.VSB' at:
