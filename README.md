@@ -14,15 +14,14 @@ To create a codespace from this repo, click the green 'Use this template' button
 
 <br/>
 
-Wait while the codespace loads, then select the `hacktribe-tutorial.sh` in the file pane on the left to display its contents in the text editor.
+Wait while the codespace loads, then wait for the tutorial script to run automatically. The patched files will appear in the file pane on the left.  
+
+If you want to understand the process, delete these files, read the tutorial script and run each command in the terminal.  Otherwise you can just download the files.
 
 <br/>
 
-![Screenshot showing how to select file for editing.](/screenshots/file-pane.png)
+![Screenshot showing file pane.](/screenshots/download-files.png)
 
-<br/>
-
-Don't edit the file, just read and follow the instructions.  
 
 <br/>
 
