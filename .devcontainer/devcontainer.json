@@ -6,5 +6,5 @@
     ]
     }
   },
-  "postCreateCommand": "./hacktribe-tutorial.sh"
+  "postCreateCommand": "bash -i ./hacktribe-tutorial.sh"
 }
