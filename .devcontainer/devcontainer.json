@@ -5,6 +5,6 @@
       "hacktribe-tutorial.sh"
     ]
     }
-  },
-  "postStartCommand": "./hacktribe-tutorial.sh"
+  }
+
 }
