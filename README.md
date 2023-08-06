@@ -1,4 +1,4 @@
-# hacktribe-tutorial
+# Hacktribe Tutorial
 
 This is a tutorial for Hacktribe firmware patching.
 
@@ -14,7 +14,9 @@ To create a codespace from this repo, click the green 'Use this template' button
 
 <br/>
 
-Wait while the codespace loads, then wait for the tutorial script to run automatically. The patched files will appear in the file pane on the left.  
+Wait while the codespace loads, then wait for the tutorial script to run automatically. 
+
+The patched files will appear in the file pane on the left. Right-click on a file to open a context menu.
 
 If you want to understand the process, delete these files, read the tutorial script and run each command in the terminal.  Otherwise you can just download the files.
 
