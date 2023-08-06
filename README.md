@@ -6,11 +6,11 @@ The tutorial is a bash script, we can run it in a Github Codespace.
 
 <br/>
 
-To create a codespace from this repo, click the green 'Code' button at the top right, select the 'Codespaces' tab, then click 'Create codespace on main'.
+To create a codespace from this repo, click the green 'Use this template' button at the top right, then click 'Open in a codespace'.
 
 <br/>
 
-![Screenshot showing how to create codespace.](/screenshots/create-codespace.png)
+![Screenshot showing how to open codespace.](/screenshots/open-codespace.png)
 
 <br/>
 
