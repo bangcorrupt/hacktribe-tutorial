@@ -1,1 +1,0 @@
-./hacktribe-tutorial.sh
