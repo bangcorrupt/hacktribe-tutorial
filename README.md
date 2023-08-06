@@ -22,10 +22,14 @@ Wait while the codespace loads, then select the `hacktribe-tutorial.sh` in the f
 
 <br/>
 
-Don't edit the file, just read and follow the instructions.  Once completed, delete the codespace to save resources.
+Don't edit the file, just read and follow the instructions.  
 
 <br/>
 
-![Screenshot showing how to delete codespace.](/screenshots/delete-codespace.png)
+Once completed, go to [github.com/codespaces](https://github.com/codespaces) and delete the codespace to save resources.
+
+<br/>
+
+![Screenshot showing how to delete codespace.](/screenshots/delete-your-codespace.png)
 
 <br/>
