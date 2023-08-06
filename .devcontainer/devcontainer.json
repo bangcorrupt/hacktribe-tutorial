@@ -3,8 +3,8 @@
   "codespaces": {
     "openFiles": [
       "hacktribe-tutorial.sh"
-    ],
-    "postCreateCommand": "./hacktribe-tutorial.sh"
+    ]
     }
-  }
+  },
+  "postCreateCommand": "./hacktribe-tutorial.sh"
 }
