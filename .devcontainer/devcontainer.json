@@ -1,3 +1,12 @@
 {
-  "postCreateCommand": "./hacktribe-tutorial.sh"
+"customizations": {
+  "codespaces": {
+    "openFiles": [
+      "README.md",
+      "scripts/tsconfig.json",
+      "docs/main/CODING_STANDARDS.md"
+    ],
+    "postCreateCommand": "./hacktribe-tutorial.sh"
+    }
+  }
 }
