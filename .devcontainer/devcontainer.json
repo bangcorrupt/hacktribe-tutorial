@@ -5,6 +5,6 @@
       "hacktribe-tutorial.sh"
     ]
     }
-  }
-
+  },
+"postAttachCommand": "./hacktribe-tutorial.sh" 
 }
