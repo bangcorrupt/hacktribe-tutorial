@@ -4,6 +4,8 @@ This is a tutorial for Hacktribe firmware patching.
 
 The tutorial is a bash script, we can run it in a Github Codespace.
 
+**You need to sign in to Github before continuing.**
+
 <br/>
 
 ## Create a Codespace
