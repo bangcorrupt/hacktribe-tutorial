@@ -105,6 +105,34 @@ mv hacked-SYSTEM.VSB synth-hacked-SYSTEM.VSB
 # If the patching was successful, 
 # you should see 'Firmware patched successfully' in the output from the script.  
 
+# Reverting to the factory firmware has minor differences depending on original firmware type.
+# For Sampler, just install factory sampler firmware version 2.02, no editing necessary.
+# For Synth, we need to edit the file header to look like sampler firmware.
+
+# First we need to download the factory synth firmware.  
+# This is proprietary and copyrighted.  
+# Please only download it for yourself and do not distribute it.  
+#
+wget https://cdn.korg.com/us/support/download/files/89f5b5eb14071e3456ceedd534618d8a.zip
+
+# Use the 'ls' command to list files in the current directory:
+ls
+
+# Unzip the zip archive we just downloaded to access the files inside:
+unzip 89f5b5eb14071e3456ceedd534618d8a.zip
+
+# Use 'ls directory' to list files in a directory named 'directory':
+ls electribe_system_v202
+
+# Move the firmware update file 'SYSTEM.VSB' to our current directory '.' :
+mv electribe_system_v202/SYSTEM.VSB .
+
+# Run another python script to edit the file header:
+python scripts/e2-header.py SYSTEM.VSB sampler
+
+# Rename the file to something more descriptive:
+mv SYSTEM.VSB synth-revert-SYSTEM.VSB
+
 
 # The patching is complete now, the rest is just tidying up.
 
@@ -122,6 +150,9 @@ rm -rf hacktribe
 # List files in our current working directory, showing some extra details:
 ls -lah
 
+# Continue with 'Install patched firmware' in the Hacktribe Wiki: 
+# https://github.com/bangcorrupt/hacktribe/wiki/How-To#install-patched-firmware
+
 # Copy the relevant '*-hacked-SYSTEM.VSB' to the 'System' directory on the SD card, 
 # rename it to 'SYSTEM.VSB' and run the firmware update function on the device.
 
@@ -135,6 +166,9 @@ ls -lah
 # 'KORG/electribe sampler/System/SYSTEM.VSB'
 
 # If you currently have a more recent version of Hacktribe firmware installed, put 'sampler-hacked-SYSTEM.VSB' file at:
+# 'KORG/hacktribe/System/SYSTEM.VSB'
+
+# If you want to revert from Hacktribe to the factory firmware, put the relevant *SYSTEM.VSB file at:
 # 'KORG/hacktribe/System/SYSTEM.VSB'
 
 # See https://github.com/bangcorrupt/hacktribe/discussions/41 if you are having difficulties
