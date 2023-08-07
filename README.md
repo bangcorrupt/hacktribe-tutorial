@@ -6,6 +6,8 @@ The tutorial is a bash script, we can run it in a Github Codespace.
 
 <br/>
 
+## Create a Codespace
+
 To create a codespace from this repo, click the green 'Use this template' button at the top right, then click 'Open in a codespace'.
 
 <br/>
@@ -15,6 +17,10 @@ To create a codespace from this repo, click the green 'Use this template' button
 <br/>
 
 Wait while the codespace loads, then wait for the tutorial script to run automatically. 
+
+<br/>
+
+## Get the Files
 
 The patched files will appear in the file pane on the left. Right-click on a file to open a context menu.
 
@@ -36,6 +42,8 @@ Files:
 See the Hacktribe [wiki](https://github.com/bangcorrupt/hacktribe/wiki/How-To#Firmware-Patch) and [discussions](https://github.com/bangcorrupt/hacktribe/discussions/41) for more information.
 
 <br/>
+
+## Tidy Up
 
 Once completed, go to [github.com/codespaces](https://github.com/codespaces) and delete the codespace to save resources.
 
