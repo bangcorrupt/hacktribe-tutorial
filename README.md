@@ -24,6 +24,16 @@ If you want to understand the process, delete these files, read the tutorial scr
 
 ![Screenshot showing file pane.](/screenshots/download-files.png)
 
+<br/>
+
+Files:
+- `sampler-hacked-SYSTEM.VSB` : Install Hacktribe from factory sampler firmware.
+- `synth-hacked-SYSTEM.VSB` : Install Hacktribe from factory synth firmware.
+- `synth-revert-SYSTEM.VSB` : Revert Hacktribe to factory synth firmware
+
+<br/>
+
+See the Hacktribe [wiki](https://github.com/bangcorrupt/hacktribe/wiki/How-To#Firmware-Patch) and [discussions](https://github.com/bangcorrupt/hacktribe/discussions/41) for more information.
 
 <br/>
 
