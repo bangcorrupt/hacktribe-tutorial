@@ -22,7 +22,7 @@ To create a codespace from this repo, click the green 'Use this template' button
 
 <br/>
 
-**Wait while the codespace loads, then wait for the tutorial script to run automatically. **
+**Wait while the codespace loads, then wait for the tutorial script to run automatically.**
 
 <br/>
 
