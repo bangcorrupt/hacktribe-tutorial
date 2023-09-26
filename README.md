@@ -6,6 +6,8 @@ The tutorial is a bash script, we can run it in a Github Codespace.
 
 **You need to sign in to Github before continuing.**
 
+Follow the steps below, as demonstrated in [this video](/videos/hacktribe-tutorial.mp4).
+
 <br/>
 
 ## Create a Codespace
