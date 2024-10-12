@@ -6,7 +6,9 @@ The tutorial is a bash script, we can run it in a Github Codespace.
 
 **You need to sign in to Github before continuing.**
 
-Follow the steps below, as demonstrated in [this video](/videos/hacktribe-tutorial.mp4).
+Follow the steps below, as demonstrated in [this video](https://github.com/bangcorrupt/hacktribe-tutorial/assets/58309433/c2eccdcb-1318-4d7b-90ea-15006ab46734).
+
+https://github.com/bangcorrupt/hacktribe-tutorial/assets/58309433/c2eccdcb-1318-4d7b-90ea-15006ab46734
 
 <br/>
 
@@ -20,7 +22,7 @@ To create a codespace from this repo, click the green 'Use this template' button
 
 <br/>
 
-Wait while the codespace loads, then wait for the tutorial script to run automatically. 
+**Wait while the codespace loads, then wait for the tutorial script to run automatically.**
 
 <br/>
 
