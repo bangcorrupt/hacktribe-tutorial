@@ -14,7 +14,7 @@ https://github.com/bangcorrupt/hacktribe-tutorial/assets/58309433/c2eccdcb-1318-
 
 ## Create a Codespace
 
-To create a codespace from this repo, click the green 'Use this template' button at the top right, then click 'Open in a codespace'.
+To create a codespace from this repo, click the green 'Code' button at the top right, then click 'Create codespace on main'.
 
 <br/>
 
